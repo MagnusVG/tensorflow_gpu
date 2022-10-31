@@ -10,4 +10,4 @@ uenv verbose cuda-10.0 cudnn-10.0-7.6.5
 uenv miniconda-python39
 conda activate tensorflow_env
 # Run the Python script that uses the GPU
-python -u model_test.py
+python -u preprocess_data.py
